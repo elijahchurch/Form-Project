@@ -3,14 +3,28 @@ window.onload = function () {
     const form = document.querySelector("form");
 
     form.onsubmit = function (event) {
-        event.preventDefault
+        event.preventDefault();
 
-        const C = document.getElementById("C#");
-        const Ruby = document.getElementById("Ruby");
-        const Rust = document.getElementById("Rust");
-        const Swift = document.getElementById("Swift");
+        const cResult = document.getElementById("C#");
+        cResult.setAttribute("class", "hidden");
+        const rubyResult = document.getElementById("Ruby");
+        rubyResult.setAttribute("class", "hidden");
+        const rustResult = document.getElementById("Rust");
+        rustResult.setAttribute("class", "hidden")
+        const swiftResult = document.getElementById("Swift");
+        swiftResult.setAttribute("class", "hidden");
 
-        let answer1 = document.getElementById("answer1").value;
+        const age = parseInt(document.getElementById("answer1").value);
+        const pets = parseInt(document.getElementById("answer2").value);
+
+        if (age >= "30" && pets >= "2") {
+            cResult.removeAttribute("class");
+        }
+        else {
+            swiftResult.removeAttribute("class");
+        }
+
+
     };
 
 
