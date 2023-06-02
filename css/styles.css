@@ -19,6 +19,11 @@ img {
     width: 200px;
 }
 
+input {
+    text-align: center;
+    width: 60px;
+}
+
 .hidden {
     display: none;
     visibility: hidden;

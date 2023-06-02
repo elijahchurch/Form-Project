@@ -19,14 +19,15 @@ window.onload = function () {
         const age = parseInt(document.getElementById("answer1").value);
         const pets = parseInt(document.getElementById("answer2").value);
 
-        if (age >= "20" && pets >= "2") {
+        if (age >= "25" && pets >= "2") {
             cResult.removeAttribute("class");
-        } else if (age >= "20" && pets === "1") {
-            rubyResult.removeAttribute("class");
-        } else if (age > "8" && age < "20") {
-            rustResult.removeAttribute("class");
-        }
-        else if (age <= "8") {
+        } else if (age > "8" && age < "25") {
+            if (pets >= "2") {
+                rustResult.removeAttribute("class");
+            } else if (pets < "2") {
+                rubyResult.removeAttribute("class");
+            }
+        } else if (age <= "8") {
             youngResult.removeAttribute("class");
         } else {
             swiftResult.removeAttribute("class");
