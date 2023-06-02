@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="js/scripts.js"></script>
-    <link rel=""stylesheet" href="css/bootstrap.css">
+    <link rel="" stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Programming Survey!</title>
 </head>
 
 <body>
+    <h1> What coding language is for you!?</h1>
+    <div id="questions">
+        <p> Fill out this brief survey to get matched with your ideal coding language. Our Survey has
+            proven to have a 17.68% success rate!
+        <p>
+        <form>
+            <label for="question1"> Question 1: </label>
+            <input id="answer1" type="text" name="question1"></input>
+            </br>
+            <label for="question2"> Question 2: </label>
+            <input id="answer2" type="text" name="question2"></input>
+            </br>
+            <label for="question3"> Question 3: </label>
+            <input id="answer3" type="text" name="question3"></input>
+            </br>
+            <label for="question4"> Question 4: </label>
+            <input id="answer4" type="text" name="question4"></input>
+            </br>
+            <label for="question5"> Question 5: </label>
+            <input id="answer5" type="text" name="question5"></input>
+            </br>
+            <button type="submit"> Match me!</button>
+        </form>
+    </div>
 
-    <div>
-        <!-- Form-->
+    <div class="hidden" class="result">
+        <h3> You should try out C#!</h3>
+        <img src="images/C.png"></img>
     </div>
-    
-    <div>
-        <!-- hidden C result-->
+
+    <div class="hidden" class="result">
+        <h3> You should try out Ruby!</h3>
+        <img src="images/Ruby.png"></img>
     </div>
-    
-    <div>
-        <!-- hidden Ruby Result -->
+
+    <div class="hidden" class="result">
+        <h3> You should try out Rust!</h3>
+        <img src="images/Rust.png">
     </div>
-    
-    <div>
-        <!-- hidden Rust Result-->
+
+    <div class="hidden" class="result">
+        <h3> You should try out Swift!</h3>
+        <img src="images/Swift.png">
     </div>
-    
-    <div>
-        <!-- hidden Swift Result-->
-    </div> 
-    
+
 </body>
+
 </html>

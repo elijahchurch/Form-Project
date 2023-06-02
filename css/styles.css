@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(158, 252, 255);
+}
+
+img {
+    width: 200px;
+}
+
+.hidden {
+    display: none;
+}
