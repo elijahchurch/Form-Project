@@ -4,36 +4,26 @@ body {
     background-color: rgb(158, 252, 255);
 }
 
+h1 {
+    text-decoration: underline;
+    color: rgb(145, 53, 199);
+}
+
 img {
     width: 200px;
 }
 
-
-
-/* .hidden {
+.hidden {
     display: none;
     visibility: hidden;
-} */
-
-.result {
-    border-style: solid;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: aquamarine;
-    margin: 10px;
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: -25%, -50%
 }
-
 
 #questions {
     border-style: solid;
     border-radius: 5px;
     padding: 10px;
     background-color: aquamarine;
-    position: absolute;
+    position: fixed;
     left: 50%;
     transform: translate(-50%);
 }
