@@ -18,9 +18,9 @@ This website was created with an HTML file; it's styling and functionality are h
 
 ## Setup/ Installation Requirement
 
-* Clone this repository to your desktop
+* Clone this repository to your desktop.
 * In the topmost directory of the project, open up all the code using Visual Code Studio or a similar application to view the written code.
-* The webpage itself can be viewed and interacted with by right-clicking the index.html in Visual Code and opening up a Live Server or visiting this [website hosted by github](http://elijahchurch.github.io/Form-Project)
+* The webpage itself can be viewed and interacted with by right-clicking the index.html in Visual Code and opening up a Live Server or visiting this [website hosted by github](http://elijahchurch.github.io/Form-Project).
 
 
 ## Known Bugs
