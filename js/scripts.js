@@ -1,19 +1,19 @@
 window.onload = function () {
 
     const form = document.querySelector("form");
+    const cResult = document.getElementById("C#");
+    const rubyResult = document.getElementById("Ruby");
+    const rustResult = document.getElementById("Rust");
+    const swiftResult = document.getElementById("Swift");
+    const youngResult = document.getElementById("young");
 
     form.onsubmit = function (event) {
         event.preventDefault();
 
-        const cResult = document.getElementById("C#");
         cResult.setAttribute("class", "hidden");
-        const rubyResult = document.getElementById("Ruby");
         rubyResult.setAttribute("class", "hidden");
-        const rustResult = document.getElementById("Rust");
         rustResult.setAttribute("class", "hidden")
-        const swiftResult = document.getElementById("Swift");
         swiftResult.setAttribute("class", "hidden");
-        const youngResult = document.getElementById("young");
         youngResult.setAttribute("class", "hidden");
 
         const age = parseInt(document.getElementById("answer1").value);
@@ -32,5 +32,6 @@ window.onload = function () {
         } else {
             swiftResult.removeAttribute("class");
         }
+        form.reset();
     };
 };
