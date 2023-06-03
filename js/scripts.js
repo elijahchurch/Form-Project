@@ -22,8 +22,7 @@ window.onload = function () {
 
         const age = parseInt(document.getElementById("answer1").value);
         const pets = parseInt(document.getElementById("answer2").value);
-        const basketball = document.querySelector("option#nuggets").value;
-        const jimmyButler = document.querySelector("option#heat").value;
+        const basketball = document.getElementById("answer5").value;
 
         if (age >= "25" && pets >= "2") {
             cResult.removeAttribute("class");
@@ -41,9 +40,9 @@ window.onload = function () {
 
         if (basketball === "nuggets") {
             nuggetsResult.removeAttribute("class");
-        } else if (jimmyButler === "heat") {
+        } else if (basketball === "heat") {
             heatResult.removeAttribute("class");
-        } else { }
+        }
         form.reset();
     };
 };
