@@ -14,7 +14,7 @@
 * Git Bash
 
 ## Description
-This website was created with an HTML file; it's styling and functionality are handled using css and javascript respectively. The webpage loads with a brief survey form that will match the user with a coding language. All results are hidden on the page by setting the display property in css for the targeted html elements to "none". The user can fill at the form and once the submit form is clicked, the linked javascript file will run an onsubmit event handler that will run through an if-else logic branch that looks at the user's inputs and matches it with a result by removing the "hidden" class from one of the html elements that contain a result. The user's inputs will reset at the very end of the event, and the user can refill the form again to possibly get a different result. 
+This website was created with an HTML file; it's styling and functionality are handled using css and javascript respectively. The webpage loads with a brief survey form that will match the user with a coding language. All results are hidden on the page by setting the display property in css for the targeted html elements to "none". The user can fill out the form and once the submit form is clicked, the linked javascript file will run an onsubmit event handler that will run through an if-else logic branch that looks at the user's inputs and matches it with a result by removing the "hidden" class from one of the html elements that contain a result. The user's inputs will reset at the very end of the event, and the user can refill the form again to possibly get a different result. 
 
 ## Setup/ Installation Requirement
 
