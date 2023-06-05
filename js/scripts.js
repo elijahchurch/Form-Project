@@ -24,9 +24,9 @@ window.onload = function () {
         const pets = parseInt(document.getElementById("answer2").value);
         const basketball = document.getElementById("answer5").value;
 
-        if (age >= "25" && pets >= "2") {
+        if (age >= "30" && pets >= "2") {
             cResult.removeAttribute("class");
-        } else if (age > "8" && age < "25") {
+        } else if (age > "8" && age < "30") {
             if (pets >= "2") {
                 rustResult.removeAttribute("class");
             } else if (pets < "2") {
